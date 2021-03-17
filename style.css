@@ -134,7 +134,7 @@ body {
     justify-content: space-around;
 }
 
-.about-us img {
+.img-about-us img {
     margin: 0;
     margin-left: 183px;
     margin-bottom: 20px;
@@ -155,14 +155,13 @@ body {
     background-color: #8D7370;
     overflow: hidden;
 }
-.first-container {
+.experience {
     display: flex;
     justify-content: space-around;
-    margin-left: 30px;
     margin-top: 82px;
     margin-bottom: 8px;
-
-    text-align: cente;
+    list-style-type: none;
+    text-align: center;
     font-size: 50px;
     line-height: 62px;
     color: #fff;
@@ -287,6 +286,7 @@ body {
 /* Блок Команда */
 
 #section-team {
+    height: 1000px;
     background: #E2C4BA;
     overflow: hidden;
 }
@@ -307,37 +307,28 @@ body {
     margin-top: 35px;
 }
 
-.team-photo {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 42px;
-    margin-bottom: 10px;
-}
-
-.team-photo img:first-child {
-    margin-left: 181px;
-}
-
-.team-photo img:last-child {
-    margin-right: 182px;
-}
-
 .team-bio {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 42px;
+    margin-bottom: 65px;
 
+    list-style-type: none;
+}
+
+.team-bio li:nth-child(2) {
+    margin-left: 38px;
+    margin-right: 38px;
+}
+
+.team-bio p {
     font-size: 18px;
     line-height: 30px;
     font-weight: 400;
 }
 
-.team-bio p:first-child {
-    margin-left: 181px;
-}
-
-.team-bio p:last-child {
-    margin-right: 182px;
-}
+/*Блок "Как мы работаем" */
 
 .circle {
     display: flex;
@@ -346,43 +337,33 @@ body {
     margin-bottom: 20px;
 }
 
-.circle span {
+.works-step {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    list-style-type: none;
+    text-align: center;
+}
+
+.works-step p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.circle {
     width: 70px;
     height: 70px;
+    margin: 40px auto 20px;
+
     background: #8D7370;
     border-radius: 100%;
-    vertical-align: center;
-    text-align: center;
     font-size: 30px;
     line-height: 70px;
     color: #fff;
 }
 
-.text-circle p:first-child {
-    margin-left: 99px;
-}
 
-.circle span:first-child {
-    margin-left: 89px;
-}
-
-.circle span:last-child {
-    margin-right: 110px;
-}
-
-.text-circle p:last-child  {
-    margin-right: 100px;
-}
-
-.text-circle {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 80px;
-
-    text-align: center;
-    font-size: 18px;
-    line-height: 30px;
-}
 
 /* Блок "Отзывы" */
 
